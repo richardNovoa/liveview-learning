@@ -1,7 +1,0 @@
-Postgresql Set up for Phoenix
-brew install postgres
-brew services start postgresql
-createuser -d postgres
-psql -U postgres (logs into postgres)
-ALTER USER postgres PASSWORD ‘postgres’
-\q (quits postgres)
