@@ -18,6 +18,8 @@ defmodule LiveViewStudioWeb.Router do
     pipe_through(:browser)
 
     live("/light", LightLive)
+    live("/license", LicenseLive)
+
     live("/", PageLive)
   end
 
